@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22C9FCF215F0CBBD006AC022 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C9FCF115F0CBBD006AC022 /* UIKit.framework */; };
+		22C9FCF415F0CBBD006AC022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C9FCF315F0CBBD006AC022 /* Foundation.framework */; };
+		22C9FCF615F0CBBD006AC022 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C9FCF515F0CBBD006AC022 /* CoreGraphics.framework */; };
+		22C9FCFC15F0CBBD006AC022 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22C9FCFA15F0CBBD006AC022 /* InfoPlist.strings */; };
+		22C9FCFE15F0CBBD006AC022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FCFD15F0CBBD006AC022 /* main.m */; };
+		22C9FD0215F0CBBD006AC022 /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD0115F0CBBD006AC022 /* XYZAppDelegate.m */; };
+		22C9FD0515F0CBBD006AC022 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C9FD0315F0CBBD006AC022 /* MainStoryboard.storyboard */; };
+		22C9FD0815F0CBBD006AC022 /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD0715F0CBBD006AC022 /* XYZViewController.m */; };
+		22C9FD1015F0CBBD006AC022 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C9FD0F15F0CBBD006AC022 /* SenTestingKit.framework */; };
+		22C9FD1115F0CBBD006AC022 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C9FCF115F0CBBD006AC022 /* UIKit.framework */; };
+		22C9FD1215F0CBBD006AC022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C9FCF315F0CBBD006AC022 /* Foundation.framework */; };
+		22C9FD1A15F0CBBD006AC022 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22C9FD1815F0CBBD006AC022 /* InfoPlist.strings */; };
+		22C9FD1D15F0CBBD006AC022 /* YahooNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD1C15F0CBBD006AC022 /* YahooNTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22C9FD1315F0CBBD006AC022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C9FCE415F0CBBD006AC022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C9FCEC15F0CBBD006AC022;
+			remoteInfo = YahooN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22C9FCED15F0CBBD006AC022 /* YahooN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YahooN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C9FCF115F0CBBD006AC022 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22C9FCF315F0CBBD006AC022 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22C9FCF515F0CBBD006AC022 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22C9FCF915F0CBBD006AC022 /* YahooN-Info.plist */ = {isa = PBXFileReference; path = "YahooN-Info.plist"; sourceTree = "<group>"; };
+		22C9FCFB15F0CBBD006AC022 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22C9FCFD15F0CBBD006AC022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22C9FCFF15F0CBBD006AC022 /* YahooN-Prefix.pch */ = {isa = PBXFileReference; path = "YahooN-Prefix.pch"; sourceTree = "<group>"; };
+		22C9FD0015F0CBBD006AC022 /* XYZAppDelegate.h */ = {isa = PBXFileReference; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		22C9FD0115F0CBBD006AC022 /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		22C9FD0415F0CBBD006AC022 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		22C9FD0615F0CBBD006AC022 /* XYZViewController.h */ = {isa = PBXFileReference; path = XYZViewController.h; sourceTree = "<group>"; };
+		22C9FD0715F0CBBD006AC022 /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
+		22C9FD0E15F0CBBD006AC022 /* YahooNTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YahooNTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C9FD0F15F0CBBD006AC022 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		22C9FD1715F0CBBD006AC022 /* YahooNTests-Info.plist */ = {isa = PBXFileReference; path = "YahooNTests-Info.plist"; sourceTree = "<group>"; };
+		22C9FD1915F0CBBD006AC022 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22C9FD1B15F0CBBD006AC022 /* YahooNTests.h */ = {isa = PBXFileReference; path = YahooNTests.h; sourceTree = "<group>"; };
+		22C9FD1C15F0CBBD006AC022 /* YahooNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YahooNTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C9FCEA15F0CBBD006AC022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C9FCF215F0CBBD006AC022 /* UIKit.framework in Frameworks */,
+				22C9FCF415F0CBBD006AC022 /* Foundation.framework in Frameworks */,
+				22C9FCF615F0CBBD006AC022 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C9FD0A15F0CBBD006AC022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C9FD1015F0CBBD006AC022 /* SenTestingKit.framework in Frameworks */,
+				22C9FD1115F0CBBD006AC022 /* UIKit.framework in Frameworks */,
+				22C9FD1215F0CBBD006AC022 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C9FCE215F0CBBD006AC022 = {
+			isa = PBXGroup;
+			children = (
+				22C9FCF715F0CBBD006AC022 /* YahooN */,
+				22C9FD1515F0CBBD006AC022 /* YahooNTests */,
+				22C9FCF015F0CBBD006AC022 /* Frameworks */,
+				22C9FCEE15F0CBBD006AC022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22C9FCEE15F0CBBD006AC022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22C9FCED15F0CBBD006AC022 /* YahooN.app */,
+				22C9FD0E15F0CBBD006AC022 /* YahooNTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22C9FCF015F0CBBD006AC022 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22C9FCF115F0CBBD006AC022 /* UIKit.framework */,
+				22C9FCF315F0CBBD006AC022 /* Foundation.framework */,
+				22C9FCF515F0CBBD006AC022 /* CoreGraphics.framework */,
+				22C9FD0F15F0CBBD006AC022 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22C9FCF715F0CBBD006AC022 /* YahooN */ = {
+			isa = PBXGroup;
+			children = (
+				22C9FD0015F0CBBD006AC022 /* XYZAppDelegate.h */,
+				22C9FD0115F0CBBD006AC022 /* XYZAppDelegate.m */,
+				22C9FD0315F0CBBD006AC022 /* MainStoryboard.storyboard */,
+				22C9FD0615F0CBBD006AC022 /* XYZViewController.h */,
+				22C9FD0715F0CBBD006AC022 /* XYZViewController.m */,
+				22C9FCF815F0CBBD006AC022 /* Supporting Files */,
+			);
+			path = YahooN;
+			sourceTree = "<group>";
+		};
+		22C9FCF815F0CBBD006AC022 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22C9FCF915F0CBBD006AC022 /* YahooN-Info.plist */,
+				22C9FCFA15F0CBBD006AC022 /* InfoPlist.strings */,
+				22C9FCFD15F0CBBD006AC022 /* main.m */,
+				22C9FCFF15F0CBBD006AC022 /* YahooN-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22C9FD1515F0CBBD006AC022 /* YahooNTests */ = {
+			isa = PBXGroup;
+			children = (
+				22C9FD1B15F0CBBD006AC022 /* YahooNTests.h */,
+				22C9FD1C15F0CBBD006AC022 /* YahooNTests.m */,
+				22C9FD1615F0CBBD006AC022 /* Supporting Files */,
+			);
+			path = YahooNTests;
+			sourceTree = "<group>";
+		};
+		22C9FD1615F0CBBD006AC022 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22C9FD1715F0CBBD006AC022 /* YahooNTests-Info.plist */,
+				22C9FD1815F0CBBD006AC022 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22C9FCEC15F0CBBD006AC022 /* YahooN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C9FD2015F0CBBD006AC022 /* Build configuration list for PBXNativeTarget "YahooN" */;
+			buildPhases = (
+				22C9FCE915F0CBBD006AC022 /* Sources */,
+				22C9FCEA15F0CBBD006AC022 /* Frameworks */,
+				22C9FCEB15F0CBBD006AC022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YahooN;
+			productName = YahooN;
+			productReference = 22C9FCED15F0CBBD006AC022 /* YahooN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22C9FD0D15F0CBBD006AC022 /* YahooNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C9FD2315F0CBBD006AC022 /* Build configuration list for PBXNativeTarget "YahooNTests" */;
+			buildPhases = (
+				22C9FD0915F0CBBD006AC022 /* Sources */,
+				22C9FD0A15F0CBBD006AC022 /* Frameworks */,
+				22C9FD0B15F0CBBD006AC022 /* Resources */,
+				22C9FD0C15F0CBBD006AC022 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C9FD1415F0CBBD006AC022 /* PBXTargetDependency */,
+			);
+			name = YahooNTests;
+			productName = YahooNTests;
+			productReference = 22C9FD0E15F0CBBD006AC022 /* YahooNTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22C9FCE415F0CBBD006AC022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 22C9FCE715F0CBBD006AC022 /* Build configuration list for PBXProject "YahooN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22C9FCE215F0CBBD006AC022;
+			productRefGroup = 22C9FCEE15F0CBBD006AC022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22C9FCEC15F0CBBD006AC022 /* YahooN */,
+				22C9FD0D15F0CBBD006AC022 /* YahooNTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22C9FCEB15F0CBBD006AC022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C9FCFC15F0CBBD006AC022 /* InfoPlist.strings in Resources */,
+				22C9FD0515F0CBBD006AC022 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C9FD0B15F0CBBD006AC022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C9FD1A15F0CBBD006AC022 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22C9FD0C15F0CBBD006AC022 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C9FCE915F0CBBD006AC022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C9FCFE15F0CBBD006AC022 /* main.m in Sources */,
+				22C9FD0215F0CBBD006AC022 /* XYZAppDelegate.m in Sources */,
+				22C9FD0815F0CBBD006AC022 /* XYZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C9FD0915F0CBBD006AC022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C9FD1D15F0CBBD006AC022 /* YahooNTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22C9FD1415F0CBBD006AC022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C9FCEC15F0CBBD006AC022 /* YahooN */;
+			targetProxy = 22C9FD1315F0CBBD006AC022 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22C9FCFA15F0CBBD006AC022 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C9FCFB15F0CBBD006AC022 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22C9FD0315F0CBBD006AC022 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C9FD0415F0CBBD006AC022 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		22C9FD1815F0CBBD006AC022 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C9FD1915F0CBBD006AC022 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22C9FD1E15F0CBBD006AC022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22C9FD1F15F0CBBD006AC022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22C9FD2115F0CBBD006AC022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YahooN/YahooN-Prefix.pch";
+				INFOPLIST_FILE = "YahooN/YahooN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22C9FD2215F0CBBD006AC022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YahooN/YahooN-Prefix.pch";
+				INFOPLIST_FILE = "YahooN/YahooN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		22C9FD2415F0CBBD006AC022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YahooN.app/YahooN";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YahooN/YahooN-Prefix.pch";
+				INFOPLIST_FILE = "YahooNTests/YahooNTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		22C9FD2515F0CBBD006AC022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YahooN.app/YahooN";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YahooN/YahooN-Prefix.pch";
+				INFOPLIST_FILE = "YahooNTests/YahooNTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22C9FCE715F0CBBD006AC022 /* Build configuration list for PBXProject "YahooN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C9FD1E15F0CBBD006AC022 /* Debug */,
+				22C9FD1F15F0CBBD006AC022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C9FD2015F0CBBD006AC022 /* Build configuration list for PBXNativeTarget "YahooN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C9FD2115F0CBBD006AC022 /* Debug */,
+				22C9FD2215F0CBBD006AC022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22C9FD2315F0CBBD006AC022 /* Build configuration list for PBXNativeTarget "YahooNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C9FD2415F0CBBD006AC022 /* Debug */,
+				22C9FD2515F0CBBD006AC022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22C9FCE415F0CBBD006AC022 /* Project object */;
+}
