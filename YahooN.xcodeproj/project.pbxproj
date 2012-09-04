@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2282340615F4782B00FEE7EA /* XML.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282340315F4782B00FEE7EA /* XML.m */; };
+		2282340715F4782B00FEE7EA /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282340515F4782B00FEE7EA /* XMLParser.m */; };
 		22C9FCF215F0CBBD006AC022 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C9FCF115F0CBBD006AC022 /* UIKit.framework */; };
 		22C9FCF415F0CBBD006AC022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C9FCF315F0CBBD006AC022 /* Foundation.framework */; };
 		22C9FCF615F0CBBD006AC022 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C9FCF515F0CBBD006AC022 /* CoreGraphics.framework */; };
@@ -20,6 +22,31 @@
 		22C9FD1215F0CBBD006AC022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C9FCF315F0CBBD006AC022 /* Foundation.framework */; };
 		22C9FD1A15F0CBBD006AC022 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22C9FD1815F0CBBD006AC022 /* InfoPlist.strings */; };
 		22C9FD1D15F0CBBD006AC022 /* YahooNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD1C15F0CBBD006AC022 /* YahooNTests.m */; };
+		22C9FD6915F0CBDA006AC022 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD3415F0CBDA006AC022 /* Base64Transcoder.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD6A15F0CBDA006AC022 /* NSData+OAuthResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD3715F0CBDA006AC022 /* NSData+OAuthResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD6B15F0CBDA006AC022 /* NSDictionary+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD3915F0CBDA006AC022 /* NSDictionary+QueryString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD6C15F0CBDA006AC022 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD3B15F0CBDA006AC022 /* NSString+URLEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD6D15F0CBDA006AC022 /* YOAuthConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD3E15F0CBDA006AC022 /* YOAuthConsumer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD6E15F0CBDA006AC022 /* YOAuthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD4015F0CBDA006AC022 /* YOAuthRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD6F15F0CBDA006AC022 /* YOAuthSignatureMethod_HMAC-SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD4315F0CBDA006AC022 /* YOAuthSignatureMethod_HMAC-SHA1.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD7015F0CBDA006AC022 /* YOAuthSignatureMethod_PLAINTEXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD4515F0CBDA006AC022 /* YOAuthSignatureMethod_PLAINTEXT.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD7115F0CBDA006AC022 /* YOAuthToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD4715F0CBDA006AC022 /* YOAuthToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD7215F0CBDA006AC022 /* YOAuthUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD4915F0CBDA006AC022 /* YOAuthUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD7315F0CBDA006AC022 /* YOSAccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD4C15F0CBDA006AC022 /* YOSAccessToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD7415F0CBDA006AC022 /* YOSAuthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD4E15F0CBDA006AC022 /* YOSAuthRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD7515F0CBDA006AC022 /* YOSBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD5015F0CBDA006AC022 /* YOSBaseRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD7615F0CBDA006AC022 /* YOSOpenSocialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD5215F0CBDA006AC022 /* YOSOpenSocialRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD7715F0CBDA006AC022 /* YOSRequestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD5415F0CBDA006AC022 /* YOSRequestClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD7815F0CBDA006AC022 /* YOSRequestToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD5615F0CBDA006AC022 /* YOSRequestToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD7915F0CBDA006AC022 /* YOSResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD5815F0CBDA006AC022 /* YOSResponseData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD7A15F0CBDA006AC022 /* YOSSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD5A15F0CBDA006AC022 /* YOSSession.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD7B15F0CBDA006AC022 /* YOSTokenStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD5D15F0CBDA006AC022 /* YOSTokenStore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD7C15F0CBDA006AC022 /* YOSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD5F15F0CBDA006AC022 /* YOSUser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD7D15F0CBDA006AC022 /* YOSUserRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD6115F0CBDA006AC022 /* YOSUserRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD7E15F0CBDA006AC022 /* YQLQueryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD6315F0CBDA006AC022 /* YQLQueryRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22C9FD8815F0CCD9006AC022 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD8315F0CCD9006AC022 /* NSObject+SBJSON.m */; };
+		22C9FD8915F0CCD9006AC022 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD8515F0CCD9006AC022 /* NSString+SBJSON.m */; };
+		22C9FD8A15F0CCD9006AC022 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9FD8715F0CCD9006AC022 /* SBJSON.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +60,84 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2282340215F4782B00FEE7EA /* XML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XML.h; sourceTree = "<group>"; };
+		2282340315F4782B00FEE7EA /* XML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XML.m; sourceTree = "<group>"; };
+		2282340415F4782B00FEE7EA /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		2282340515F4782B00FEE7EA /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
 		22C9FCED15F0CBBD006AC022 /* YahooN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YahooN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C9FCF115F0CBBD006AC022 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22C9FCF315F0CBBD006AC022 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22C9FCF515F0CBBD006AC022 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		22C9FCF915F0CBBD006AC022 /* YahooN-Info.plist */ = {isa = PBXFileReference; path = "YahooN-Info.plist"; sourceTree = "<group>"; };
+		22C9FCF915F0CBBD006AC022 /* YahooN-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YahooN-Info.plist"; sourceTree = "<group>"; };
 		22C9FCFB15F0CBBD006AC022 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22C9FCFD15F0CBBD006AC022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		22C9FCFF15F0CBBD006AC022 /* YahooN-Prefix.pch */ = {isa = PBXFileReference; path = "YahooN-Prefix.pch"; sourceTree = "<group>"; };
-		22C9FD0015F0CBBD006AC022 /* XYZAppDelegate.h */ = {isa = PBXFileReference; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		22C9FCFF15F0CBBD006AC022 /* YahooN-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YahooN-Prefix.pch"; sourceTree = "<group>"; };
+		22C9FD0015F0CBBD006AC022 /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
 		22C9FD0115F0CBBD006AC022 /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
 		22C9FD0415F0CBBD006AC022 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		22C9FD0615F0CBBD006AC022 /* XYZViewController.h */ = {isa = PBXFileReference; path = XYZViewController.h; sourceTree = "<group>"; };
+		22C9FD0615F0CBBD006AC022 /* XYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
 		22C9FD0715F0CBBD006AC022 /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
 		22C9FD0E15F0CBBD006AC022 /* YahooNTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YahooNTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C9FD0F15F0CBBD006AC022 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		22C9FD1715F0CBBD006AC022 /* YahooNTests-Info.plist */ = {isa = PBXFileReference; path = "YahooNTests-Info.plist"; sourceTree = "<group>"; };
+		22C9FD1715F0CBBD006AC022 /* YahooNTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YahooNTests-Info.plist"; sourceTree = "<group>"; };
 		22C9FD1915F0CBBD006AC022 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		22C9FD1B15F0CBBD006AC022 /* YahooNTests.h */ = {isa = PBXFileReference; path = YahooNTests.h; sourceTree = "<group>"; };
+		22C9FD1B15F0CBBD006AC022 /* YahooNTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YahooNTests.h; sourceTree = "<group>"; };
 		22C9FD1C15F0CBBD006AC022 /* YahooNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YahooNTests.m; sourceTree = "<group>"; };
+		22C9FD3415F0CBDA006AC022 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		22C9FD3515F0CBDA006AC022 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		22C9FD3615F0CBDA006AC022 /* NSData+OAuthResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+OAuthResponse.h"; sourceTree = "<group>"; };
+		22C9FD3715F0CBDA006AC022 /* NSData+OAuthResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+OAuthResponse.m"; sourceTree = "<group>"; };
+		22C9FD3815F0CBDA006AC022 /* NSDictionary+QueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QueryString.h"; sourceTree = "<group>"; };
+		22C9FD3915F0CBDA006AC022 /* NSDictionary+QueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QueryString.m"; sourceTree = "<group>"; };
+		22C9FD3A15F0CBDA006AC022 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		22C9FD3B15F0CBDA006AC022 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		22C9FD3C15F0CBDA006AC022 /* YOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOAuth.h; sourceTree = "<group>"; };
+		22C9FD3D15F0CBDA006AC022 /* YOAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOAuthConsumer.h; sourceTree = "<group>"; };
+		22C9FD3E15F0CBDA006AC022 /* YOAuthConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOAuthConsumer.m; sourceTree = "<group>"; };
+		22C9FD3F15F0CBDA006AC022 /* YOAuthRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOAuthRequest.h; sourceTree = "<group>"; };
+		22C9FD4015F0CBDA006AC022 /* YOAuthRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOAuthRequest.m; sourceTree = "<group>"; };
+		22C9FD4115F0CBDA006AC022 /* YOAuthSignatureMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOAuthSignatureMethod.h; sourceTree = "<group>"; };
+		22C9FD4215F0CBDA006AC022 /* YOAuthSignatureMethod_HMAC-SHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YOAuthSignatureMethod_HMAC-SHA1.h"; sourceTree = "<group>"; };
+		22C9FD4315F0CBDA006AC022 /* YOAuthSignatureMethod_HMAC-SHA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YOAuthSignatureMethod_HMAC-SHA1.m"; sourceTree = "<group>"; };
+		22C9FD4415F0CBDA006AC022 /* YOAuthSignatureMethod_PLAINTEXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOAuthSignatureMethod_PLAINTEXT.h; sourceTree = "<group>"; };
+		22C9FD4515F0CBDA006AC022 /* YOAuthSignatureMethod_PLAINTEXT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOAuthSignatureMethod_PLAINTEXT.m; sourceTree = "<group>"; };
+		22C9FD4615F0CBDA006AC022 /* YOAuthToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOAuthToken.h; sourceTree = "<group>"; };
+		22C9FD4715F0CBDA006AC022 /* YOAuthToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOAuthToken.m; sourceTree = "<group>"; };
+		22C9FD4815F0CBDA006AC022 /* YOAuthUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOAuthUtil.h; sourceTree = "<group>"; };
+		22C9FD4915F0CBDA006AC022 /* YOAuthUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOAuthUtil.m; sourceTree = "<group>"; };
+		22C9FD4B15F0CBDA006AC022 /* YOSAccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSAccessToken.h; sourceTree = "<group>"; };
+		22C9FD4C15F0CBDA006AC022 /* YOSAccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSAccessToken.m; sourceTree = "<group>"; };
+		22C9FD4D15F0CBDA006AC022 /* YOSAuthRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSAuthRequest.h; sourceTree = "<group>"; };
+		22C9FD4E15F0CBDA006AC022 /* YOSAuthRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSAuthRequest.m; sourceTree = "<group>"; };
+		22C9FD4F15F0CBDA006AC022 /* YOSBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSBaseRequest.h; sourceTree = "<group>"; };
+		22C9FD5015F0CBDA006AC022 /* YOSBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSBaseRequest.m; sourceTree = "<group>"; };
+		22C9FD5115F0CBDA006AC022 /* YOSOpenSocialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSOpenSocialRequest.h; sourceTree = "<group>"; };
+		22C9FD5215F0CBDA006AC022 /* YOSOpenSocialRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSOpenSocialRequest.m; sourceTree = "<group>"; };
+		22C9FD5315F0CBDA006AC022 /* YOSRequestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSRequestClient.h; sourceTree = "<group>"; };
+		22C9FD5415F0CBDA006AC022 /* YOSRequestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSRequestClient.m; sourceTree = "<group>"; };
+		22C9FD5515F0CBDA006AC022 /* YOSRequestToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSRequestToken.h; sourceTree = "<group>"; };
+		22C9FD5615F0CBDA006AC022 /* YOSRequestToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSRequestToken.m; sourceTree = "<group>"; };
+		22C9FD5715F0CBDA006AC022 /* YOSResponseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSResponseData.h; sourceTree = "<group>"; };
+		22C9FD5815F0CBDA006AC022 /* YOSResponseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSResponseData.m; sourceTree = "<group>"; };
+		22C9FD5915F0CBDA006AC022 /* YOSSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSSession.h; sourceTree = "<group>"; };
+		22C9FD5A15F0CBDA006AC022 /* YOSSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSSession.m; sourceTree = "<group>"; };
+		22C9FD5B15F0CBDA006AC022 /* YOSSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSSocial.h; sourceTree = "<group>"; };
+		22C9FD5C15F0CBDA006AC022 /* YOSTokenStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSTokenStore.h; sourceTree = "<group>"; };
+		22C9FD5D15F0CBDA006AC022 /* YOSTokenStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSTokenStore.m; sourceTree = "<group>"; };
+		22C9FD5E15F0CBDA006AC022 /* YOSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSUser.h; sourceTree = "<group>"; };
+		22C9FD5F15F0CBDA006AC022 /* YOSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSUser.m; sourceTree = "<group>"; };
+		22C9FD6015F0CBDA006AC022 /* YOSUserRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSUserRequest.h; sourceTree = "<group>"; };
+		22C9FD6115F0CBDA006AC022 /* YOSUserRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSUserRequest.m; sourceTree = "<group>"; };
+		22C9FD6215F0CBDA006AC022 /* YQLQueryRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQLQueryRequest.h; sourceTree = "<group>"; };
+		22C9FD6315F0CBDA006AC022 /* YQLQueryRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQLQueryRequest.m; sourceTree = "<group>"; };
+		22C9FD8015F0CCD9006AC022 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		22C9FD8115F0CCD9006AC022 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		22C9FD8215F0CCD9006AC022 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		22C9FD8315F0CCD9006AC022 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		22C9FD8415F0CCD9006AC022 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		22C9FD8515F0CCD9006AC022 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		22C9FD8615F0CCD9006AC022 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		22C9FD8715F0CCD9006AC022 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +167,9 @@
 		22C9FCE215F0CBBD006AC022 = {
 			isa = PBXGroup;
 			children = (
+				22C9FD7F15F0CCD9006AC022 /* json-framework */,
+				22C9FD3215F0CBDA006AC022 /* YOAuth */,
+				22C9FD4A15F0CBDA006AC022 /* YOSSocial */,
 				22C9FCF715F0CBBD006AC022 /* YahooN */,
 				22C9FD1515F0CBBD006AC022 /* YahooNTests */,
 				22C9FCF015F0CBBD006AC022 /* Frameworks */,
@@ -111,6 +200,10 @@
 		22C9FCF715F0CBBD006AC022 /* YahooN */ = {
 			isa = PBXGroup;
 			children = (
+				2282340215F4782B00FEE7EA /* XML.h */,
+				2282340315F4782B00FEE7EA /* XML.m */,
+				2282340415F4782B00FEE7EA /* XMLParser.h */,
+				2282340515F4782B00FEE7EA /* XMLParser.m */,
 				22C9FD0015F0CBBD006AC022 /* XYZAppDelegate.h */,
 				22C9FD0115F0CBBD006AC022 /* XYZAppDelegate.m */,
 				22C9FD0315F0CBBD006AC022 /* MainStoryboard.storyboard */,
@@ -149,6 +242,90 @@
 				22C9FD1815F0CBBD006AC022 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22C9FD3215F0CBDA006AC022 /* YOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				22C9FD3315F0CBDA006AC022 /* Crypto */,
+				22C9FD3615F0CBDA006AC022 /* NSData+OAuthResponse.h */,
+				22C9FD3715F0CBDA006AC022 /* NSData+OAuthResponse.m */,
+				22C9FD3815F0CBDA006AC022 /* NSDictionary+QueryString.h */,
+				22C9FD3915F0CBDA006AC022 /* NSDictionary+QueryString.m */,
+				22C9FD3A15F0CBDA006AC022 /* NSString+URLEncoding.h */,
+				22C9FD3B15F0CBDA006AC022 /* NSString+URLEncoding.m */,
+				22C9FD3C15F0CBDA006AC022 /* YOAuth.h */,
+				22C9FD3D15F0CBDA006AC022 /* YOAuthConsumer.h */,
+				22C9FD3E15F0CBDA006AC022 /* YOAuthConsumer.m */,
+				22C9FD3F15F0CBDA006AC022 /* YOAuthRequest.h */,
+				22C9FD4015F0CBDA006AC022 /* YOAuthRequest.m */,
+				22C9FD4115F0CBDA006AC022 /* YOAuthSignatureMethod.h */,
+				22C9FD4215F0CBDA006AC022 /* YOAuthSignatureMethod_HMAC-SHA1.h */,
+				22C9FD4315F0CBDA006AC022 /* YOAuthSignatureMethod_HMAC-SHA1.m */,
+				22C9FD4415F0CBDA006AC022 /* YOAuthSignatureMethod_PLAINTEXT.h */,
+				22C9FD4515F0CBDA006AC022 /* YOAuthSignatureMethod_PLAINTEXT.m */,
+				22C9FD4615F0CBDA006AC022 /* YOAuthToken.h */,
+				22C9FD4715F0CBDA006AC022 /* YOAuthToken.m */,
+				22C9FD4815F0CBDA006AC022 /* YOAuthUtil.h */,
+				22C9FD4915F0CBDA006AC022 /* YOAuthUtil.m */,
+			);
+			path = YOAuth;
+			sourceTree = "<group>";
+		};
+		22C9FD3315F0CBDA006AC022 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				22C9FD3415F0CBDA006AC022 /* Base64Transcoder.c */,
+				22C9FD3515F0CBDA006AC022 /* Base64Transcoder.h */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		22C9FD4A15F0CBDA006AC022 /* YOSSocial */ = {
+			isa = PBXGroup;
+			children = (
+				22C9FD4B15F0CBDA006AC022 /* YOSAccessToken.h */,
+				22C9FD4C15F0CBDA006AC022 /* YOSAccessToken.m */,
+				22C9FD4D15F0CBDA006AC022 /* YOSAuthRequest.h */,
+				22C9FD4E15F0CBDA006AC022 /* YOSAuthRequest.m */,
+				22C9FD4F15F0CBDA006AC022 /* YOSBaseRequest.h */,
+				22C9FD5015F0CBDA006AC022 /* YOSBaseRequest.m */,
+				22C9FD5115F0CBDA006AC022 /* YOSOpenSocialRequest.h */,
+				22C9FD5215F0CBDA006AC022 /* YOSOpenSocialRequest.m */,
+				22C9FD5315F0CBDA006AC022 /* YOSRequestClient.h */,
+				22C9FD5415F0CBDA006AC022 /* YOSRequestClient.m */,
+				22C9FD5515F0CBDA006AC022 /* YOSRequestToken.h */,
+				22C9FD5615F0CBDA006AC022 /* YOSRequestToken.m */,
+				22C9FD5715F0CBDA006AC022 /* YOSResponseData.h */,
+				22C9FD5815F0CBDA006AC022 /* YOSResponseData.m */,
+				22C9FD5915F0CBDA006AC022 /* YOSSession.h */,
+				22C9FD5A15F0CBDA006AC022 /* YOSSession.m */,
+				22C9FD5B15F0CBDA006AC022 /* YOSSocial.h */,
+				22C9FD5C15F0CBDA006AC022 /* YOSTokenStore.h */,
+				22C9FD5D15F0CBDA006AC022 /* YOSTokenStore.m */,
+				22C9FD5E15F0CBDA006AC022 /* YOSUser.h */,
+				22C9FD5F15F0CBDA006AC022 /* YOSUser.m */,
+				22C9FD6015F0CBDA006AC022 /* YOSUserRequest.h */,
+				22C9FD6115F0CBDA006AC022 /* YOSUserRequest.m */,
+				22C9FD6215F0CBDA006AC022 /* YQLQueryRequest.h */,
+				22C9FD6315F0CBDA006AC022 /* YQLQueryRequest.m */,
+			);
+			path = YOSSocial;
+			sourceTree = "<group>";
+		};
+		22C9FD7F15F0CCD9006AC022 /* json-framework */ = {
+			isa = PBXGroup;
+			children = (
+				22C9FD8015F0CCD9006AC022 /* CJSONDeserializer.h */,
+				22C9FD8115F0CCD9006AC022 /* JSON.h */,
+				22C9FD8215F0CCD9006AC022 /* NSObject+SBJSON.h */,
+				22C9FD8315F0CCD9006AC022 /* NSObject+SBJSON.m */,
+				22C9FD8415F0CCD9006AC022 /* NSString+SBJSON.h */,
+				22C9FD8515F0CCD9006AC022 /* NSString+SBJSON.m */,
+				22C9FD8615F0CCD9006AC022 /* SBJSON.h */,
+				22C9FD8715F0CCD9006AC022 /* SBJSON.m */,
+			);
+			path = "json-framework";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +438,33 @@
 				22C9FCFE15F0CBBD006AC022 /* main.m in Sources */,
 				22C9FD0215F0CBBD006AC022 /* XYZAppDelegate.m in Sources */,
 				22C9FD0815F0CBBD006AC022 /* XYZViewController.m in Sources */,
+				22C9FD6915F0CBDA006AC022 /* Base64Transcoder.c in Sources */,
+				22C9FD6A15F0CBDA006AC022 /* NSData+OAuthResponse.m in Sources */,
+				22C9FD6B15F0CBDA006AC022 /* NSDictionary+QueryString.m in Sources */,
+				22C9FD6C15F0CBDA006AC022 /* NSString+URLEncoding.m in Sources */,
+				22C9FD6D15F0CBDA006AC022 /* YOAuthConsumer.m in Sources */,
+				22C9FD6E15F0CBDA006AC022 /* YOAuthRequest.m in Sources */,
+				22C9FD6F15F0CBDA006AC022 /* YOAuthSignatureMethod_HMAC-SHA1.m in Sources */,
+				22C9FD7015F0CBDA006AC022 /* YOAuthSignatureMethod_PLAINTEXT.m in Sources */,
+				22C9FD7115F0CBDA006AC022 /* YOAuthToken.m in Sources */,
+				22C9FD7215F0CBDA006AC022 /* YOAuthUtil.m in Sources */,
+				22C9FD7315F0CBDA006AC022 /* YOSAccessToken.m in Sources */,
+				22C9FD7415F0CBDA006AC022 /* YOSAuthRequest.m in Sources */,
+				22C9FD7515F0CBDA006AC022 /* YOSBaseRequest.m in Sources */,
+				22C9FD7615F0CBDA006AC022 /* YOSOpenSocialRequest.m in Sources */,
+				22C9FD7715F0CBDA006AC022 /* YOSRequestClient.m in Sources */,
+				22C9FD7815F0CBDA006AC022 /* YOSRequestToken.m in Sources */,
+				22C9FD7915F0CBDA006AC022 /* YOSResponseData.m in Sources */,
+				22C9FD7A15F0CBDA006AC022 /* YOSSession.m in Sources */,
+				22C9FD7B15F0CBDA006AC022 /* YOSTokenStore.m in Sources */,
+				22C9FD7C15F0CBDA006AC022 /* YOSUser.m in Sources */,
+				22C9FD7D15F0CBDA006AC022 /* YOSUserRequest.m in Sources */,
+				22C9FD7E15F0CBDA006AC022 /* YQLQueryRequest.m in Sources */,
+				22C9FD8815F0CCD9006AC022 /* NSObject+SBJSON.m in Sources */,
+				22C9FD8915F0CCD9006AC022 /* NSString+SBJSON.m in Sources */,
+				22C9FD8A15F0CCD9006AC022 /* SBJSON.m in Sources */,
+				2282340615F4782B00FEE7EA /* XML.m in Sources */,
+				2282340715F4782B00FEE7EA /* XMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +634,7 @@
 				22C9FD2215F0CBBD006AC022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22C9FD2315F0CBBD006AC022 /* Build configuration list for PBXNativeTarget "YahooNTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +643,7 @@
 				22C9FD2515F0CBBD006AC022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

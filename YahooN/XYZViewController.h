@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface XYZViewController : UIViewController
-
+@property (nonatomic, strong) NSMutableArray *photoid;
+@property (nonatomic, strong) NSMutableArray *phototitle;
+@property (nonatomic, strong) NSMutableArray *owner;
 @end
+
